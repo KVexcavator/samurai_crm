@@ -15,3 +15,5 @@
 - replace gemspec file
 - tuning SamuraiCRM/engines/core/bin/rails
 - tuning SamuraiCRM/engines/core/config/routes.rb
+- add gem to parent gemfile
+- mount parent's router
