@@ -14,3 +14,4 @@
 - tuning namespece
 - replace gemspec file
 - tuning SamuraiCRM/engines/core/bin/rails
+- tuning SamuraiCRM/engines/core/config/routes.rb
