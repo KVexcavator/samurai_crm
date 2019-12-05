@@ -12,4 +12,5 @@
 - mkdir engines && mv core engines/
 - cd engines/core/lib && mkdir samurai && mv core tasks core.rb samurai/ && touch samurai_core.rb
 - tuning namespece
-- 
+- replace gemspec file
+- tuning SamuraiCRM/engines/core/bin/rails
