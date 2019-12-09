@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/samurai .css
+//= link_directory ../stylesheets/samurai/ aplication.js
