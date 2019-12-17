@@ -32,4 +32,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'devise', '~> 4.7.1'
   spec.add_dependency 'cancan', '~> 1.6.10'
   spec.add_development_dependency "sqlite3"
+  #Rspec
+  spec.add_development_dependency 'rspec-rails'
+  spec.add_development_dependency 'factory_bot_rails'
+  spec.add_development_dependency 'faker'
+  spec.add_development_dependency 'database_cleaner'
 end
