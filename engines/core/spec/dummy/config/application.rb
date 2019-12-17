@@ -14,7 +14,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "core"
+require "samurai/core"
 
 module Dummy
   class Application < Rails::Application
