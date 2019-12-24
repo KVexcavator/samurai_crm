@@ -10,6 +10,8 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 # Require Factory Girl and DatabaseCleaner
 require 'rspec/rails'
 require 'factory_bot_rails'
+#FactoryBot.definition_file_paths = [File.join(File.dirname(__FILE__), 'factories')]
+#FactoryBot.find_definitions
 require 'database_cleaner'
 # Set the ENGINE_RAILS_ROOT variable
 ENGINE_RAILS_ROOT=File.join(File.dirname(__FILE__), '../')
@@ -43,6 +45,7 @@ rescue ActiveRecord::PendingMigrationError => e
   exit 1
 end
 RSpec.configure do |config|
+  config.include FactoryBot::Syntax::Methods
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
