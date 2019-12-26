@@ -28,5 +28,7 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/engines/core/spec/dummy/db/test.sqlite3
-/engines/core/spec/dummy/log/test.log
+/engines/core/spec/dummy/db/*.sqlite3
+/engines/core/spec/dummy/db/*.sqlite3-journal
+/engines/core/spec/dummy/db/*.sqlite3-*
+/engines/core/spec/dummy/log/*
